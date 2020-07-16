@@ -1,6 +1,13 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 h1{
    color: cornsilk;
     margin: auto;
+    padding-top: 5em;
+    padding-bottom: 1em;
+    
 }
 
 .topic{
@@ -11,19 +18,32 @@ h1{
 }
 
 .topic_content{
-    width: 80%;
+    width: 90%;
     margin: auto;
     background-color: blanchedalmond;
     text-align: center;
 }
 
-.topic_content h1{
-    padding-top: 5em;
-}
-
 #introduction .topic_content{
     background-image: url(../images/background_introduction.jpg);
+    background-size: 1600px 1000px;
+    background-repeat: no-repeat;
     height: 100%;
 }
+
+#introduction button{
+   
+    height: 7%;
+    width: 8%;
+    background-color: transparent;
+    border-radius: 0%;
+    border: solid rgba(255, 255, 255, 1) 1px;
+    color: rgba(255, 255, 255, 1);
+}
+#introduction .btn:hover, .btn:focus, .btn:active {
+    background-color: rgba(255, 255, 255, 1)!important;
+    border: solid rgba(255, 255, 255, 1) 1px!important;
+    color: black!important;
+    }
 
 

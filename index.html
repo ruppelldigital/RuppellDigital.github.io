@@ -12,16 +12,30 @@
     <link rel="stylesheet" href="personal_css/style.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script>
+        jQuery(document).ready(function($) { 
+            $(".scroll").click(function(event){        
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top}, 600);
+           });
+        });
+      </script>
 </head>
 <body>
     
 <div id="introduction" class="topic">
     <div class="topic_content">
-       
-        <h1>Bem-indo à Ruppell <br>Digital</h1>
+        <h1>Bem-vindo à Ruppell <br>Digital</h1>
+        <button class="btn scroll" href="about">Saiba mais</button>
     </div>
 </div>
 <div id="examples_01" class="topic">
+    <div class="topic_content">
+       
+        <h1>EXEMPLOS DE IMAGENS</h1>
+    </div>
+</div>
+<div id="about" class="topic">
     <div class="topic_content">
        
         <h1>EXEMPLOS DE IMAGENS</h1>
