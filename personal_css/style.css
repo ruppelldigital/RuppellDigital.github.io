@@ -30,6 +30,14 @@ h1{
     background-color: rgb(29, 29, 29);
 }
 
+#examples_01{
+    background-color: rgb(29, 29, 29);
+}
+
+#about{
+    background-color: rgb(255, 167, 167);
+}
+
 #introduction .topic_content{
     background-image: url(../images/background_introduction.jpg);
     background-size: 1600px 1000px;
@@ -39,8 +47,8 @@ h1{
 
 #introduction button{
    
-    height: 7%;
-    width: 8%;
+    height: 6%;
+    width: 9%;
     background-color: transparent;
     border-radius: 0%;
     border: solid rgba(255, 255, 255, 1) 1px;
