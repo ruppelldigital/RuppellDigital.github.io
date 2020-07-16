@@ -1,27 +1,33 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(70, 69, 69);
 }
 
 h1{
+    width: 100%;
+    font-size: 1em;
    color: cornsilk;
     margin: auto;
     padding-top: 5em;
     padding-bottom: 1em;
-    
 }
 
 .topic{
-    padding-top: 3em;
   height: 700px;
-  margin: auto;
-  background-color: rgb(29, 29, 29);
+  margin: 0%;
+  background-color: rgb(70, 69, 69);
 }
 
 .topic_content{
-    width: 90%;
-    margin: auto;
-    background-color: blanchedalmond;
+    margin: 5em 5em;
     text-align: center;
+}
+
+#navbar{
+    width: 100%;
+    margin: auto;
+    height: 150px;
+    background-color: rgb(29, 29, 29);
 }
 
 #introduction .topic_content{
