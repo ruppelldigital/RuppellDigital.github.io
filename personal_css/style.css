@@ -1,0 +1,29 @@
+h1{
+   color: cornsilk;
+    margin: auto;
+}
+
+.topic{
+    padding-top: 3em;
+  height: 700px;
+  margin: auto;
+  background-color: rgb(29, 29, 29);
+}
+
+.topic_content{
+    width: 80%;
+    margin: auto;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+.topic_content h1{
+    padding-top: 5em;
+}
+
+#introduction .topic_content{
+    background-image: url(../images/background_introduction.jpg);
+    height: 100%;
+}
+
+
