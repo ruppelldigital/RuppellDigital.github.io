@@ -17,7 +17,7 @@ p{
   height: 900px;
   width: 100%;
   padding: 5em;
-  background-color: rgb(70, 69, 69);
+  background-color: #2F2F2F;
 }
 
 .topic_content{
@@ -29,15 +29,15 @@ p{
     width: 100%;
     margin: auto;
     height: 150px;
-    background-color: rgb(29, 29, 29);
+    background-color: #181818;
 }
 
 #examples_01{
-    background-color: rgb(29, 29, 29);
+    background-color: #181818;
 }
 
 #about{
-    background-color: rgb(255, 188, 188);
+    background-color: #FBC3BC;
 }
 
 #introduction .topic_content{
