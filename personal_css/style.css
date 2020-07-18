@@ -1,28 +1,32 @@
+body {
+    color: #F0F0F0;
+}
+
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 4.5em;
     font-weight: normal;
-    color: #F0F0F0;
     line-height: 1.25em;
     margin: auto;
     padding-top: 2.5em;
     padding-bottom: 1em;
 }
 
-
+h2 {
+    color: #FBC3BC;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.5em;
+}
 
 p {
-    color: #F0F0F0;
-    
+    margin-top: 2em;
 }
 
-nav {
-    color: #F0F0F0;
-}
+nav {}
 
 hr {
-    background-color: #F0F0F0;
     margin: 1.5em 0;
+    background-color: #F0F0F0;
 }
 
 nav img {
@@ -32,7 +36,6 @@ nav img {
 button {
     border-radius: 0%;
 }
-
 
 .topic {
     height: 825px;
@@ -51,13 +54,22 @@ button {
 
 #introduction {
     height: 950px;
+    
 }
 
 #introduction .topic_content {
+    
     background-image: url(../images/background_introduction.jpg);
-    background-repeat: no-repeat;
     height: 100%;
+     
+    background-repeat: no-repeat;
+    background-position: center center;
+    
     text-align: center;
+}
+
+#introduction .description{
+    
 }
 
 #introduction button {
@@ -81,12 +93,19 @@ button {
 
 #about {
     background-color: #FBC3BC;
+    display: flex;
 }
 
 #about .topic_content {
     width: 49%;
     height: 100%;
+    padding: 7em;
     display: inline-block;
+    text-align: center;
+}
+
+#about .description {
+    margin-top: 2em;
     text-align: center;
 }
 
@@ -104,6 +123,7 @@ button {
 #prices {
     background-color: #181818;
     display: flex;
+    height: 900;
 }
 
 #prices .topic_content {
@@ -114,7 +134,17 @@ button {
     background-color: transparent;
     border-radius: 0%;
     border: solid #F0F0F0 1px;
-    color: #F0F0F0;
+}
+
+#prices .topic_content img {
+    width: 100%;
+    height:60%;
+    position: center center;
+}
+
+#prices .description {
+    margin: 2em;
+    text-align: left;
 }
 
 #prices button {
@@ -127,21 +157,7 @@ button {
 
 #prices .btn:hover, .btn:focus, .btn:active {
     background-color: #B7908B!important;
-    border: solid black 1px!important;
+    border: solid #B7908B 1px!important;
     color: #594947!important;
 }
 
-#prices .topic_content img {
-    width: 100%;
-    height: 60%;
-}
-
-#prices .description{
-    margin: 2em;
-    text-align: left;
-
-}
-
-#price_01 {}
-
-#price_02 {}
