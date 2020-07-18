@@ -1,66 +1,147 @@
-h1{
+h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1px;
-    color: rgba(255, 255, 255, 1);
+    font-size: 4.5em;
+    font-weight: normal;
+    color: #F0F0F0;
+    line-height: 1.25em;
     margin: auto;
-    padding-top: 5em;
+    padding-top: 2.5em;
     padding-bottom: 1em;
+}
+
+
+
+p {
+    color: #F0F0F0;
     
 }
 
-p{
-    color: white;
-    font-size: 25px;
+nav {
+    color: #F0F0F0;
 }
 
-.topic{
-  height: 900px;
-  width: 100%;
-  padding: 5em;
-  background-color: #2F2F2F;
+hr {
+    background-color: #F0F0F0;
+    margin: 1.5em 0;
 }
 
-.topic_content{
-    margin: auto;
-    height: 100%;
+nav img {
+    size: 10px;
 }
 
-#navbar{
+button {
+    border-radius: 0%;
+}
+
+
+.topic {
+    height: 825px;
+    width: 100%;
+    padding: 5em;
+    background-color: #2F2F2F;
+}
+
+#navbar {
     width: 100%;
     margin: auto;
-    height: 150px;
+    padding: 2em 5em;
+    height: 160px;
     background-color: #181818;
 }
 
-#examples_01{
-    background-color: #181818;
+#introduction {
+    height: 950px;
 }
 
-#about{
-    background-color: #FBC3BC;
-}
-
-#introduction .topic_content{
+#introduction .topic_content {
     background-image: url(../images/background_introduction.jpg);
-   
     background-repeat: no-repeat;
     height: 100%;
     text-align: center;
 }
 
-#introduction button{
-   
+#introduction button {
     height: 6%;
     width: 9%;
     background-color: transparent;
     border-radius: 0%;
-    border: solid rgba(255, 255, 255, 1) 1px;
-    color: rgba(255, 255, 255, 1);
+    border: solid #F0F0F0 1px;
+    color: #F0F0F0;
 }
+
 #introduction .btn:hover, .btn:focus, .btn:active {
-    background-color: rgba(255, 255, 255, 1)!important;
-    border: solid rgba(255, 255, 255, 1) 1px!important;
+    background-color: #F0F0F0!important;
+    border: solid #F0F0F0 1px!important;
     color: black!important;
-    }
+}
 
+#examples_01 {
+    background-color: #181818;
+}
 
+#about {
+    background-color: #FBC3BC;
+}
+
+#about .topic_content {
+    width: 49%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+#about_01 {
+    background-color: #181818;
+    float: inline-start;
+}
+
+#about_02 {
+    background-image: url(../images/parede_de_tijolo.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+#prices {
+    background-color: #181818;
+    display: flex;
+}
+
+#prices .topic_content {
+    width: 31%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 0%;
+    border: solid #F0F0F0 1px;
+    color: #F0F0F0;
+}
+
+#prices button {
+    width: 35%;
+    background-color: #FBC3BC;
+    border-radius: 0%;
+    border: solid black 1px;
+    color: #181818;
+}
+
+#prices .btn:hover, .btn:focus, .btn:active {
+    background-color: #B7908B!important;
+    border: solid black 1px!important;
+    color: #594947!important;
+}
+
+#prices .topic_content img {
+    width: 100%;
+    height: 60%;
+}
+
+#prices .description{
+    margin: 2em;
+    text-align: left;
+
+}
+
+#price_01 {}
+
+#price_02 {}

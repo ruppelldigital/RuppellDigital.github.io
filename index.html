@@ -1,49 +1,102 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
+
 <head>
-    <link rel="shortcut icon" href="/images/icon_logo.svg" type="image/x-icon" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Marketing Digital">
     <meta name="author" content="Messias Nunesmaia">
     <title>Ruppell</title>
-    <link rel="stylesheet" href="personal_css/style.css" type="text/css">
+    <link rel="shortcut icon" href="/images/icon_logo.svg" type="image/x-icon" />
     <script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="personal_css/style.css" type="text/css">
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script>
-        jQuery(document).ready(function($) { 
-            $(".scroll").click(function(event){        
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
                 event.preventDefault();
-                $('html,body').animate({scrollTop:$(this.hash).offset().top}, 600);
-           });
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 600);
+            });
         });
-      </script>
+    </script>
 </head>
+
 <body>
-  
-<div id="navbar">
-    <nav >NAVBAR</nav>
-</div> 
-<div id="introduction" class="topic">
-    <div class="topic_content">
-        <h1>Bem-vindo à Ruppell <br>Digital</h1>
-        <a class="scroll" href="#about"><button class="btn">Saiba mais</button></a>
-    </div>
-</div>
-<div id="examples_01" class="topic">
-    <div class="topic_content"> 
-       <p>EXEMPLOS DE IMAGENS</p>
-    </div>
-</div>
-<div id="about" class="topic">
-    <div class="topic_content">     
-        <h1>SOBRE</h1>
-    </div>
-</div>
 
+    <div id="navbar">
+        <nav>
+            <h3>Ruppell Digital</h3>
+            <hr>
+            <a>Início</a>
+            &nbsp;&nbsp;
+            <a>Agende Online</a>
+            <a><img src="" alt="icon_link"></a>
+        </nav>
+    </div>
+    <div id="introduction" class="topic">
+        <div class="topic_content">
+            <h1>Bem-vindo à Ruppell <br>Digital</h1>
+            <a class="scroll" href="#about"><button class="btn">Saiba mais</button></a>
+        </div>
+    </div>
+    <div id="examples_01" class="topic">
+        <div class="topic_content">
+            <p>EXEMPLOS DE IMAGENS</p>
+        </div>
+    </div>
+    <div id="about" class="topic">
+        <div id="about_01" class="topic_content">
 
+        </div>
+        &nbsp;&nbsp;&nbsp;
+        <div id="about_02" class="topic_content">
+
+        </div>
+
+    </div>
+    <div id="prices" class="topic">
+        <div id="price_01" class="topic_content">
+            <img src="images/parede_de_tijolo.jpg" alt="parede_de_tijolo">
+            <div class="description">
+                <h3>Design 1</h3>
+                <hr>
+                <strong>
+                    <p>1 h</p>
+                    <p>$19.99</p>
+                </strong>
+                <a><button class="btn">Agendar Já</button></a>
+            </div>
+        </div>
+        &nbsp;&nbsp;&nbsp;;&nbsp;&nbsp;
+        <div id="price_02" class="topic_content">
+            <img src="images/parede_de_tijolo.jpg" alt="parede_de_tijolo">
+            <div class="description">
+                <h3>Design 2</h3>
+                <hr>
+                <strong>
+                    <p>1 h</p>
+                    <p>$19.99</p>
+                </strong>
+                <a><button class="btn">Agendar Já</button></a>
+            </div>
+        </div>
+        &nbsp;&nbsp;&nbsp;;&nbsp;&nbsp;
+        <div id="price_03" class="topic_content">
+            <img src="images/parede_de_tijolo.jpg" alt="parede_de_tijolo">
+            <div class="description">
+                <h3>Design 3</h3>
+                <hr>
+                <strong>
+                    <p>1 h</p>
+                    <p>$19.99</p>
+                </strong>
+                <a><button class="btn">Agendar Já</button></a>
+            </div>
+        </div>
+
+    </div>
 
 </body>
+
 </html>
