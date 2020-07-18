@@ -33,10 +33,6 @@ nav img {
     size: 10px;
 }
 
-button {
-    border-radius: 0%;
-}
-
 .topic {
     height: 825px;
     width: 100%;
@@ -147,17 +143,23 @@ button {
     text-align: left;
 }
 
+#prices p{
+margin-top: 1em;
+}
+
 #prices button {
     width: 35%;
-    background-color: #FBC3BC;
+    height: 45;
+    background-color: transparent;
     border-radius: 0%;
-    border: solid black 1px;
-    color: #181818;
+    border: solid #F0F0F0 1px;
+    color: #F0F0F0;
 }
 
 #prices .btn:hover, .btn:focus, .btn:active {
-    background-color: #B7908B!important;
-    border: solid #B7908B 1px!important;
-    color: #594947!important;
+    background-color: #F0F0F0!important;
+    border: solid #F0F0F0 1px!important;
+    color: black!important;
 }
+
 
