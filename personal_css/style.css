@@ -24,15 +24,23 @@ p {
     margin-top: 2em;
 }
 
+form {
+    margin: 0em 5em;
+}
+
 nav {
     display: block;
+}
+
+nav img {
+    size: 20px;
+    float: right;
 }
 
 hr {
     margin: 1.5em 0;
     background-color: #F0F0F0;
 }
-
 
 footer {
     width: 100%;
@@ -46,10 +54,6 @@ footer {
 
 footer p {
     margin-top: 1em;
-}
-
-#navbar_1 {
-    display: inline-flex;
 }
 
 .topic {
@@ -71,8 +75,8 @@ footer p {
     background-color: #181818;
 }
 
-nav img {
-    size: 50px;
+#navbar_1 {
+    display: flex;
 }
 
 #introduction {
@@ -221,14 +225,6 @@ nav img {
 #contact .description {
     margin: 9.15em;
     text-align: center;
-}
-
-form{
-   margin: 0em 5em;
-}
-
-input{
-    background: transparent;
 }
 
 #logo_ruppell {
