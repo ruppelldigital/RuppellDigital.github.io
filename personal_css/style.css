@@ -22,6 +22,7 @@ h2 {
 
 p {
     margin-top: 2em;
+    font-size: 0.8em;
 }
 
 form {
@@ -230,4 +231,79 @@ footer p {
 #logo_ruppell {
     height: 50%;
     background-color: #2F2F2F;
+}
+
+@media (max-width: 600px){
+
+    h1{
+        padding-top: 5em;
+        font-size: 3.5em;
+    }
+
+    h2{
+        font-size: 2.5em;
+    }
+
+    .topic {
+        padding: 2em;
+    }
+
+    #navbar {
+        padding: 2em;
+    }
+
+    #about{
+        display: none;
+    }
+
+    #introduction button {
+        height: 6%;
+        width: 30%;
+    }
+
+    #prices {
+        display: flex;
+        height: 900;
+        padding: 5em 3em;
+    }
+
+    #prices .topic_content {
+        width: 31%;
+        height: 100%;
+        display: inline-block;
+        text-align: center;
+        background-color: transparent;
+        border-radius: 0%;
+        border: solid #F0F0F0 1px;
+    }
+    
+    #prices img {
+        width: 100%;
+        height: 60%;
+        position: center center;
+    }
+    
+    #prices .description {
+        margin: 2em;
+        text-align: left;
+    }
+    
+    #prices p {
+        margin-top: 1em;
+    }
+
+   #prices h3{
+        font-size: 1.3em;
+   } 
+    
+    #prices button {
+        width: 100%;
+        font-size: 1em;
+    }
+    
+    #prices .btn:hover, .btn:focus, .btn:active {
+        background-color: #F0F0F0!important;
+        border: solid #F0F0F0 1px!important;
+        color: black!important;
+    }
 }
