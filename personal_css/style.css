@@ -89,6 +89,7 @@ footer p {
     height: 100%;
     background-repeat: no-repeat;
     background-position: center center;
+    background-attachment: fixed;
     text-align: center;
 }
 
@@ -103,10 +104,22 @@ footer p {
     color: #F0F0F0;
 }
 
-#introduction .btn:hover, .btn:focus, .btn:active {
+#introduction .btn:visited {
+    background-color: transparent;
+    border: solid #F0F0F0 1px;
+    color: #F0F0F0;
+}
+
+#introduction .btn:hover{
     background-color: #F0F0F0!important;
     border: solid #F0F0F0 1px!important;
     color: black!important;
+}
+
+#introduction .btn:active {
+    background-color: transparent;
+    border: solid #F0F0F0 1px;
+    color: #F0F0F0;
 }
 
 #examples_01 {
@@ -195,7 +208,7 @@ footer p {
     color: #F0F0F0;
 }
 
-#prices .btn:hover, .btn:focus, .btn:active {
+#prices .btn:hover, .btn:focus {
     background-color: #F0F0F0!important;
     border: solid #F0F0F0 1px!important;
     color: black!important;
